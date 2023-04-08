@@ -1,0 +1,71 @@
+find out or explain
+=====================================
+1. mx-auto
+
+2. 1rem=16px
+
+3. bs helper classes p-2 (padding 2 all sides), my-lg-0 (vertical margin - on y-axis - 0 on large screen), 2 on all sides in other screens
+
+4. linear-gradient property 
+
+5. text-shadow property
+
+
+======================================
+
+other useful pointers 
+
+min-height property ==> value assigned would be default value, if structure exceeds this, they height:auto would be automatically applied
+
+just one div within home section 
+
+=======================================
+
+timelines
+
+12:19 ==> he is expert, flexing entire div works for him, for us, we use different/individual styling method -- explain this
+
+14:41 ==> font fine-tuning -- look how simple font change can impact design + text shadow effect
+
+16:22 ==> type of design, where generic styles are stored in one place as parent class, then tweaked for minor changes in the subsequent child classes
+	  example: display:flex, jc-enter, al-center for parent; then flex-direction:column for child
+
+17:00 ==> explain y it is best to wrap bs input fields in wrapper div [with classname "input-group"] and give them [form-control] class within [m-4 is just to give margins on all sides]
+
+19:24 ==> text-center helper class 
+
+19:40 ==> anchor tags!! within the page interlinking
+
+21:02 ==> img-fluid class -- for making image size device responsive !Important [also explain row container] 
+
+21:30 ==> applying col-lg-12, col-md-12 and col-12 to the same class - we will decide on this later
+
+22:01 ==> introduce loren ipsum text generator -- enough of typing placeholder text!
+
+24:01 ==> more on padding and margin helper classes!
+
+27:15 ==> remember bs card component!!! important and useful!!!
+
+28:52 ==> manually adjusting the img size, despite having bs img-fluid class -- so implement according to requirements
+
+31:36 ==> manually adds margin without helper class - basically up to us which one to use 
+
+NOTE: CONTAINERS HAVE BEEN PLACED WITHIN SECTION TAGS, COZ THESE SECTIONS ARE NOT DOING MUCH LAYOUT-WISE!!!! MEANS CONTAINER OR CONTAINER-FLUID IS STILL RESPONSIBLE FOR THE LAYOUT!!!!!! BIGGEST QUESTION THAT WILL ARISE....... 
+
+35:53 ==> athukku etukku division potukittu!!!!! (sign of a good designer)
+
+36:23 ==> importance of applying form-control class to bs input field
+
+38:07 --> nann panra mathiriye panra, container ku custom class peru kodukkaran
+
+38:52 --> form ku yen flex apply pannra na, button width tha col-md-6 div oda 100% ku extend panna
+
+39:06 --> again input ta manual la design pannren
+
+39:32 --> important img-fluid class sa again use panren 
+
+
+questions
+===========
+
+1. something was missed in home section, what was it? 
